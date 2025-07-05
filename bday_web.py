@@ -16,7 +16,7 @@ def play_music(file_path):
 
 def show_image(img_path):
     img = Image.open(img_path)
-    st.image(img, use_container_width=True)
+    st.image(img, use_container_width=width)
 
 
 # 💌 Birthday message
