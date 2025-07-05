@@ -48,6 +48,7 @@ st.subheader("📸 Some Memories")
 cols = st.columns(2)
 
 with cols[0]:
+    show_image("1.jpg", width=300)
     show_image("sabbyyy_beach.jpg", width=300)
 
 with cols[1]:
