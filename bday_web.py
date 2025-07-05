@@ -14,10 +14,10 @@ def play_music(file_path):
         audio_bytes = audio_file.read()
         st.audio(audio_bytes, format="audio/mp3")
 
-# 🖼️ Show image
-def show_image(img_path, width):
+def show_image(img_path):
     img = Image.open(img_path)
-    st.image(img, use_column_width=False, width=width)
+    st.image(img, use_container_width=True)
+
 
 # 💌 Birthday message
 def show_message():
